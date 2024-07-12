@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+}
+.navbar .menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+.navbar .menu ul li a{
+    padding-left: 50px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar .logo img{
+    height: 100px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.navbar .login-btn a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar .login-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    background-color: #b4b4b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+.navbar .login-btn:hover{
+    background-color: #8d8d8d;
+}
+.hero-section{
+    padding-top: 200px;
+    padding-left: 70px;
+    display: flex;
+}
+.hero-section h1{
+    letter-spacing: 1px;
+    font-size:40px;
+    word-spacing: 5px;
+}
+.hero-section .text{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.hero-section p {
+    margin-top: -40px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.hero-section .nd-line{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.hero-section .text .h1 {
+    display: flex;
+}
+.hero-section .text .h1 img{
+    height: 150px;
+    margin-top: -55px;
+    margin-left: -35px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #dbdbdb;
+    margin-top: 100px;
+    display: flex;
+}
+.footer .frm{
+    padding-top: 15px;
+    margin-left: 200px;
+}
+.frm .email{
+    padding: 8px;
+    width: 230px;
+}
+.frm .submit{
+    padding: 8px;
+}
+.so-icon{
+    display: flex;
+    height: 30px;
+    gap: 5px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.footer .mention-text{
+    margin-top: 20px;
+    margin-left: 310px;
+}
+.hero-section .picture img {
+    border-radius: 36% 64% 50% 50% / 70% 70% 30% 30%;
+    height: 350px;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+.text .setup-btn svg{
+    height: 20px;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.setup-btn .t {
+    margin-left: 10px;
+}
+.btn11 a{
+    display: flex;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+}
+.navbar .menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 480px;
+    margin-top: 20px;
+    column-gap: 30px;
+}
+.navbar .menu ul li a{
+    padding-left: 50px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar .logo img{
+    height: 100px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.navbar .login-btn a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar .login-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+    background-color: #b4b4b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+.navbar .login-btn:hover{
+    background-color: #8d8d8d;
+}
+.setup-page{
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+}
+.setup-page h1{
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    margin-top: 50px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px; 
+}
+.block{
+    display: block;
+}
+input  {
+    width: 250px; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+select{
+    width: 250px;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+.first-input{
+    display: flex;
+    width: 520px;
+    gap: 20px;
+}
+.first-input input{
+    width: 520px;
+}
+.btn{
+    padding: 12px 24px ;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #b4b4b4;
+    margin-right: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #8d8d8d;
+}
